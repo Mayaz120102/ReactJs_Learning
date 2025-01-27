@@ -7,7 +7,7 @@ function App() {
       <Navbar title="Flagmanuing" About="About Me" />
       <div className="container">
         {" "}
-        <TextForm heading="enter the email and passward" />
+        <TextForm heading="enter the text to convert" />
       </div>
     </>
   );
