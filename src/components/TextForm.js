@@ -10,11 +10,24 @@ export default function TextForm(props) {
     let lowText = text.toLocaleLowerCase();
     setText(lowText);
   };
+  const clear = () => {
+    let clearText = "";
+    setText(clearText);
+  };
+
+  const countSentence = () => {
+    // Split text into sentences using a regular expression
+    let sentences = text
+      .split(/[.!?]+/)
+      .filter((sentence) => sentence.trim().length > 0);
+    console.log("Sentence Count: " + sentences.length);
+    alert("Total Sentences: " + sentences.length);
+  };
   const changeOnClick = (event) => {
     console.log("changing");
     setText(event.target.value);
   };
-  const [text, setText] = useState("enter txt");
+  const [text, setText] = useState("");
   return (
     <div>
       <h1>{props.heading}</h1>
@@ -35,11 +48,21 @@ export default function TextForm(props) {
         convert to upper
       </button>
       <button
-        className="btn btn-primary"
+        className="btn btn-primary mx-2"
         type="submit"
         onClick={convertedTolower}
       >
         convert to lower
+      </button>
+      <button className="btn btn-primary mx-2" type="submit" onClick={clear}>
+        clear
+      </button>
+      <button
+        className="btn btn-primary mx-2"
+        type="submit"
+        onClick={countSentence}
+      >
+        countsentence
       </button>
     </div>
   );
