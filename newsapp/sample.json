@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "totalResults": 4,
+  "articles": [
+    {
+      "source": { "id": "bbc-sport", "name": "BBC Sport" },
+      "author": null,
+      "title": "Women's Ashes 2025: Clare Connor says she does not recognise accusations of 'cosiness' in England side",
+      "description": "Clare Connor, managing director of England women's cricket, discusses the fallout of the 16-0 Ashes defeat with BBC Sport.",
+      "url": "http://www.bbc.co.uk/sport/cricket/articles/c75zxv4qwzko",
+      "urlToImage": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5cc5/live/58a96ac0-e13c-11ef-a819-277e390a7a08.jpg",
+      "publishedAt": "2025-02-02T12:37:28.2269937Z",
+      "content": "Connor reaffirmed her belief in the group of players - but accepted they are still playing catch-up with Australia's superior domestic set-up.\r\nThis is despite major investment in the women's game in… [+1396 chars]"
+    },
+    {
+      "source": { "id": "news-com-au", "name": "News.com.au" },
+      "author": "Tyler Lewis",
+      "title": "‘Send him home’: Great’s blunt advice",
+      "description": "Brad Haddin has urged Australian selectors to send Sam Konstas home to play state cricket if he isn’t in their plans for the second Test against Sri Lanka.",
+      "url": "https://www.news.com.au/sport/cricket/brad-haddin-has-urged-selectors-to-send-sam-konstas-home-from-sri-lanka/news-story/3f29ab00633b593969ccf18be3d6385a",
+      "urlToImage": "https://content.api.news/v3/images/bin/8f62c8068d07ef95a17bb388ba258d1f",
+      "publishedAt": "2025-02-02T06:52:00Z",
+      "content": "Brad Haddin has urged Australian selectors to send Sam Konstas home to play state cricket if he isn’t in their plans for the second Test against Sri Lanka.\r\nDespite his glittering introduction into T… [+1606 chars]"
+    },
+    {
+      "source": { "id": "espn-cric-info", "name": "ESPN Cric Info" },
+      "author": null,
+      "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+      "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+      "publishedAt": "2020-04-27T11:41:47Z",
+      "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+    },
+    {
+      "source": { "id": "espn-cric-info", "name": "ESPN Cric Info" },
+      "author": null,
+      "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+      "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+      "publishedAt": "2020-03-30T15:26:05Z",
+      "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+    }
+  ]
+}
