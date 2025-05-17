@@ -1,0 +1,20 @@
+.contSec h1 {
+  color: red;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 71px;
+}
+
+.contSec p {
+  color: var(--gray);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  max-width: 1440px;
+  margin: auto;
+}
