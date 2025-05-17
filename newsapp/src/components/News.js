@@ -26,8 +26,13 @@ export class News extends Component {
   }
 
   async componentDidMount() {
+<<<<<<< HEAD
     let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&pagesize=${this.props.pageSize}`;
     this.setState({ loading: true });
+=======
+    let url =
+      "https://
+>>>>>>> bf280e14686c7baabe8d5bf17c270dd4469c85cb
     let data = await fetch(url);
     let parsedData = await data.json();
     console.log(parsedData);
