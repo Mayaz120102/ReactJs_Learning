@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.top_btn {
+  display: flex;
+  gap: 32px;
+  margin-top: 40px;
+}
