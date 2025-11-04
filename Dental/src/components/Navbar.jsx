@@ -6,7 +6,7 @@ const navList = [
   { href: "#services", label: "Services" },
   { href: "#about", label: "About" },
   { href: "#tips", label: "Tips" },
-  { href: "#book", label: "Took" },
+  { href: "#book", label: "Book" },
   { href: "#testimonials", label: "Testimonials" },
 ];
 const Navbar = () => {
