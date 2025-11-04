@@ -68,7 +68,7 @@ const Tips = () => {
           </button>
         ))}
       </div>
-      <div className="bg-gradiant-to-r from-sky-50 to-blue-100 rounded-2xl p-8 shadow-sm">
+      <div className="bg-linear-to-r from-sky-50 to-blue-100 rounded-2xl p-8 shadow-sm">
         <div className="flex flex-col md:flex-row items-center gap-6">
           <div className="flex shrink-0 bg-white p-6 rounded-xl shadow-md">
             {tips[activeTip].icon}

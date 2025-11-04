@@ -50,7 +50,7 @@ const AppoinmentBook = () => {
   return (
     <div
       id="book"
-      className="scroll-mt-20 min-h-screen bg-gradiant-to-br from-sky-50 to bg-sky-200 p-12 px-4"
+      className="scroll-mt-20 min-h-screen bg-linear-to-br from-sky-50 to bg-sky-200 p-12 px-4"
     >
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
@@ -66,7 +66,7 @@ const AppoinmentBook = () => {
           <div className="relative">
             <div className="absolute top-1/2 left-0 right-0 h-2 bg-gray-100 rounded-full z-0">
               <div
-                className="absolute top-1/2 left-0 h-2 bg-gradiant-to-r from bg-sky-400 to-sky-400 rounded-full z-10 transition-all duration-500"
+                className="absolute top-1/2 left-0 h-2 bg-linear-to-r from bg-sky-400 to-sky-400 rounded-full z-10 transition-all duration-500"
                 style={{ width: `${(appoinment - 1) * 50}%` }}
               ></div>
               <div className="flex justify-between relative">
@@ -80,7 +80,7 @@ const AppoinmentBook = () => {
                       className={`w-10 h-10 rounded-full flex items-center justify-center
                             ${
                               appoinment >= step
-                                ? "bg-gradiant-to-br from-sky-700 to-sky-700 text-blue-700 shadow-lg"
+                                ? "bg-linear-to-br from-sky-700 to-sky-700 text-blue-700 shadow-lg"
                                 : "bg-blue-600 text-gray-300 border-2 border-gray-200"
                             } transition-all duration-300 font-bold mb-2`}
                     >
@@ -238,7 +238,7 @@ const AppoinmentBook = () => {
                   <span className="font-medium">{formData.service}</span>
                 </div>
               </div>
-              <button className="w-full max-w-xs py-4 bg-gradiant-to-r from-sky-500 to-sky-500 text-white font-bold rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105">
+              <button className="w-full max-w-xs py-4 bg-linear-to-r from-sky-500 to-sky-500  font-bold rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105">
                 Confirm & Book Appoinment
               </button>
             </div>
