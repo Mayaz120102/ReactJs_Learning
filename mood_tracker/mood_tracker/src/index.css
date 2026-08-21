@@ -1,0 +1,66 @@
+.mood-tracker-parents{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(59, 131, 59);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.emoji-panel{
+    display: flex;
+    gap: 20px;
+}
+
+.emoji-btn{
+    font-size: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.profile{
+    margin-top: 20px;
+    text-align: center;
+    background: cyan;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.profile-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid greenyellow;
+    background: #000;
+}
+
+.age-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:25px
+}
+
+.userlist{
+    margin-top: 40px;;
+    border: 1px solid black;
+    background: orange;
+    text-align: center;
+
+}
+
+.userlist_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
